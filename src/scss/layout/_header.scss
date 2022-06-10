@@ -1,0 +1,18 @@
+@use "../abstracts/variables" as v;
+@use "../abstracts/mixins" as m;
+
+header {
+    #noSticky {
+        position: relative;
+        z-index: 7000;
+        width: 100%;
+    }
+    #isSticky {
+        position: fixed;
+        right: 0;
+        top: 0;
+        z-index: 80000;
+        transition: top .25s cubic-bezier(.25,.1,.25,1), opacity .25s cubic-bezier(.25,.1,.25,1);
+        width: 100%;
+    }
+}

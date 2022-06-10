@@ -1,0 +1,37 @@
+# IDEs
+.buildpath
+.project
+.DS_Store
+.idea
+.vscode
+.git
+.skip
+.settings/
+.build/
+nbproject/
+runonce*
+prepros-6.config
+
+# App config
+/dist/config/parameters.yml
+
+# Generated folders and files
+.php_cs.cache
+/node_modules/
+/dist/assets/
+/dist/files/*
+/dist/system/*
+/dist/var/
+/dist/vendor/
+/dist/web/*
+!/dist/system/config/
+/dist/system/config/*
+!/dist/system/src/
+
+
+# Custom Template-Files
+!/dist/system/config/initconfig.php
+
+# Contao Manager
+/dist/contao-manager/
+/dist/web/contao-manager.phar.php

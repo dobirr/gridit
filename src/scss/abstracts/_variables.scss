@@ -1,0 +1,28 @@
+:root {
+    --text: #222;
+}
+
+$bg: pink;
+
+
+
+
+/* Breakpoints ###############################*/
+
+// sm
+$screen-sm-min: 576px;
+
+// md
+$screen-md-min: 768px;
+
+// lg
+$screen-lg-min: 992px;
+
+// xl
+$screen-xl-min: 1140px;
+
+// xxl
+$screen-xxl-min: 1300px;
+
+// xxl
+$screen-xxxl-min: 1450px;

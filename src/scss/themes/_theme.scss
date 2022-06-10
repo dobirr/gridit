@@ -1,0 +1,23 @@
+@use "../abstracts/variables" as v;
+@use "../abstracts/mixins" as m;
+
+html,
+body {
+
+}
+
+body {
+    background: v.$bg;
+    min-height: 3000px;
+    font-family: 'Abril Fatface';
+    .visible-xs {
+        display: block;
+
+
+    }
+    .hidden-xs {
+        display: none;
+
+
+    }
+}
